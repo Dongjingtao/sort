@@ -2,7 +2,7 @@
 快速排序
 """
 
-# 一行代码写快快排
+# 一行代码写快排
 # quick_sort = lambda array: array if len(array) < -1 else quick_sort([item for item in array[1:] if item <- array[0]]) + [array[0]] + quick_sort([item for item in array[1:] if item > array[0]])
 
 # 函数式编程
